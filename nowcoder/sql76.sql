@@ -13,11 +13,8 @@ VALUES (1, 'C++', 11001),
        (3, 'C++', 9000),
        (4, 'Java', 12000),
        (5, 'Java', 13000),
-       (6, 'JS', 12000),
-       (7, 'JS', 11000),
-       (8, 'JS', 9999);
+       (6, 'B', 12000),
+       (7, 'B', 11000),
+       (8, 'B', 9999);
 
-select job, round(avg(score), 3) as s
-from grade
-group by job
-order by s desc;
+
